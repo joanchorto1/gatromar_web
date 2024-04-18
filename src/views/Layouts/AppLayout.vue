@@ -7,21 +7,36 @@ import Logo from "@/views/Icons/Logo.vue";
   <header class="  p-5 bg-gray-900">
     <nav class="text-gray-100">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex items-center justify-between h-16">
+        <div class="lg:flex  md:flex  items-center justify-between w-full ">
           <div class="flex">
             <div class="flex-shrink-0">
-              <Logo class="fill-gray-100"/>
+              <Logo class="h-10 md:h-20 lg:h-20 fill-gray-100"/>
             </div>
           </div>
-          <div class="flex items-center">
+          <div class="  lg:flex md:flex items-center">
             <!-- Enlaces de navegación -->
-            <div class="hidden md:block">
-              <a href="/" class="px-3 py-2 rounded-md text-sm font-medium hover:text-gray-500">Inicio</a>
-              <a href="/carta" class="px-3 py-2 rounded-md text-sm font-medium hover:text-gray-500">Carta</a>
-              <a href="/catering" class="px-3 py-2 rounded-md text-sm font-medium hover:text-gray-500">Catering</a>
-              <a href="/nosotros" class="px-3 py-2 rounded-md text-sm font-medium hover:text-gray-500">Nosotros</a>
-              <a href="/contact" class="px-3 py-2 rounded-md text-sm font-medium hover:text-gray-500">Contacto</a>
+            <div class="w-full flex  ">
+              <ul class="md:flex lg:flex justify-end items-end">
+                <li>
+                  <a href="/" class="px-3 py-2 rounded-md text-sm font-medium hover:text-gray-500">Inicio</a>
+                </li>
+                <li>
+                  <a href="/carta" class="px-3 py-2 rounded-md text-sm font-medium hover:text-gray-500">Carta</a>
 
+                </li>
+                <li>
+                  <a href="/catering" class="px-3 py-2 rounded-md text-sm font-medium hover:text-gray-500">Catering</a>
+
+                </li>
+                <li>
+                  <a href="/nosotros" class="px-3 py-2 rounded-md text-sm font-medium hover:text-gray-500">Nosotros</a>
+
+                </li>
+                <li>
+                  <a href="/contact" class="px-3 py-2 rounded-md text-sm font-medium hover:text-gray-500">Contacto</a>
+
+                </li>
+              </ul>
             </div>
           </div>
         </div>
